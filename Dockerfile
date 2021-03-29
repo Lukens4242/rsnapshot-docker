@@ -18,4 +18,5 @@ RUN apt install -y sshfs
 VOLUME ["/config", "/.snapshots", "/root/.ssh"]
 
 COPY init.sh /init.sh
+RUN chmod a+x /init.sh
 CMD ["./init.sh"]
