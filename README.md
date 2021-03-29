@@ -24,7 +24,8 @@ docker run -d \
   --cap-add=SYS_ADMIN
   -v /path/on/host/to/config:/config
   -v /path/on/host/to/ssh:/root/.ssh
-  -v /path/on/host/to/backuprepos:/.snapshots/
+  -v /path/on/host/to/backuparchive:/.snapshots/
+  -v /path/to/data/to/backup:/data/
   lukens4242/rsnapshot
 ```
   
