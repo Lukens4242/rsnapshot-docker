@@ -18,7 +18,8 @@ You will want to use the usual `rsnapshot` mechanisms for generating and manging
 
 ## Example
 The heart of it all:
-```docker run -d \
+```
+docker run -d \
   --device /dev/fuse
   --cap-add=SYS_ADMIN
   -v /path/on/host/to/config:/config
@@ -29,5 +30,6 @@ The heart of it all:
   
 Then go in with bash to setup your `id_rsa`, `id_rsa.pub`, `known_hosts`, and build your rsnapshot configurations.
 
-```docker exec -it $CONTAINERID bash
+```
+docker exec -it $CONTAINERID bash
 ```
