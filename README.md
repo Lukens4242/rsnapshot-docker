@@ -29,7 +29,7 @@ docker run -d \
   lukens42/rsnapshot
 ```
   
-Then go in with bash to setup your `id_rsa`, `id_rsa.pub`, `known_hosts`, and build your rsnapshot configurations.
+Then go in with bash to setup your `id_rsa`, `id_rsa.pub`, `known_hosts`, and build your `rsnapshot` configurations.
 
 ```
 docker exec -it $CONTAINERID bash
