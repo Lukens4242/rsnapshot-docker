@@ -24,7 +24,8 @@ The heart of it all:
   -v /path/on/host/to/config:/config
   -v /path/on/host/to/ssh:/root/.ssh
   -v /path/on/host/to/backuprepos:/.snapshots/
-  lukens4242/rsnapshot```
+  lukens4242/rsnapshot
+```
   
 Then go in with bash to setup your `id_rsa`, `id_rsa.pub`, `known_hosts`, and build your rsnapshot configurations.
 `docker exec -it $CONTAINERID bash`
