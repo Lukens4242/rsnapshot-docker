@@ -28,4 +28,6 @@ The heart of it all:
 ```
   
 Then go in with bash to setup your `id_rsa`, `id_rsa.pub`, `known_hosts`, and build your rsnapshot configurations.
-`docker exec -it $CONTAINERID bash`
+
+```docker exec -it $CONTAINERID bash
+```
