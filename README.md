@@ -26,7 +26,7 @@ docker run -d \
   -v /path/on/host/to/ssh:/root/.ssh
   -v /path/on/host/to/backuparchive:/.snapshots/
   -v /path/to/data/to/backup:/data/
-  lukens4242/rsnapshot
+  lukens42/rsnapshot
 ```
   
 Then go in with bash to setup your `id_rsa`, `id_rsa.pub`, `known_hosts`, and build your rsnapshot configurations.
